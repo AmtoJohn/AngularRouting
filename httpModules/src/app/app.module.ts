@@ -10,7 +10,8 @@ import { FooComponent } from './foo/foo.component';
     FooComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
